@@ -5,9 +5,15 @@ is pronounced in an audio recording. This is a multiclass classification task.
 
 ## Requirements
 
-tensorflow
-keras
-imblearn
+• tensorflow
+• keras
+• imblearn
+
+or run below code in your prompt window after git cloning this repository
+
+```
+pip install -r requirements.txt
+```
 
 ## Data files
 
