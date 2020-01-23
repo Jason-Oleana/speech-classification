@@ -21,8 +21,7 @@ pip install -r requirements.txt
 data) in the form of wav files.\
 wav.tgz can be downloaded here: https://surfdrive.surf.nl/files/index.php/s/A91xgk7B5kXNvfJ
 
-• train.csv: this file contains two columns:\
-path with the filename of the recording and word with word which was pronounced in the recording.
+• train.csv: this file contains two columns: path with the filename of the recording and word with word which was pronounced in the recording.
 This is the training portion of the data.
 
 • test.csv: This is the testing portion of the data, and it has the same
