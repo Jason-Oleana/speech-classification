@@ -9,7 +9,8 @@ is pronounced in an audio recording. This is a multiclass classification task.
 • keras\
 • imblearn\
 • python_speech_features\
-• Librosa\
+• Librosa
+
 or run below code in your prompt window after git cloning this repository
 
 ```
