@@ -7,8 +7,9 @@ is pronounced in an audio recording. This is a multiclass classification task.
 
 • tensorflow\
 • keras\
-• imblearn
-
+• imblearn\
+• python_speech_features\
+• Librosa\
 or run below code in your prompt window after git cloning this repository
 
 ```
