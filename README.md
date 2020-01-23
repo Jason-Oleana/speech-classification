@@ -12,7 +12,8 @@ imblearn
 ## Data files
 
 • wav.tgz: a compressed directory with all the recordings (training and test
-data) in the form of wav files.
+data) in the form of wav files. 
+wav.tgz can be downloaded here: https://surfdrive.surf.nl/files/index.php/s/A91xgk7B5kXNvfJ
 
 • train.csv: this file contains two columns: path with the filename of the
 recording and word with word which was pronounced in the recording.
