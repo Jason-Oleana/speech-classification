@@ -52,3 +52,5 @@ in order to change the values of numeric columns in the dataset to a common scal
 distorting differences in the ranges of values. In the fourth step, the labels were one-hot
 encoded before being split into training and validation sets.
 
+## Convolutional Neural Network and parameter tuning
+The deep learning architecture used consisted of a 1 Dimensional Convolutional Neural Network (see figure 3). This approach was inspired by existing literature on environmental sound classification with convolutional neural networks (Piczak, 2015). A conv1D layer, maxpooling1D, dropout layer, and dense layer was used. The following parameters were tuned:1. Hyperparameters related to the network structure·Different experiments were executed by adding hidden layers until the test error did not improve anymore.·Dropout was used in order to avoid overfitting. Dropout was set to 30%.2. Hyperparameters related to Training Algorithm·The number of epochs was tuned until the validation set started to level out (see figure 1)
