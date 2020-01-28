@@ -28,3 +28,27 @@ This is the training portion of the data.
 
 • test.csv: This is the testing portion of the data, and it has the same
 format as the file train.csv except that the column word is absent.
+
+# Approach
+
+## Data extraction
+The first step executed was loading the data into Jupyter and defining the distribution of the
+training and testing data. In the next step, the features and labels were extracted from path.npy
+and feat.npy. The extraction of the features and labels resulted in a training set of 94824
+examples and a test set consisting of 11005 unlabeled examples.
+Feature engineering
+
+## While exploring the extracted Mel Frequency Cepstral Coefficients (MFCCs), we discovered
+unequal dimensions, such as (99, 13), (96, 13) and (92, 13). Therefore, the extracted features
+were zero-padded in order to match the largest dimension. Zero padding the Mel Frequency
+Cepstral Coefficients resulted in an array of (94824 99, 13) examples for the training set and an
+array consisting of (11005, 99, 13) examples for the test set. In the second step, the class
+distribution was computed in order to comprehend the distribution of all labels. The class
+distribution was quite imbalanced (see figure 1) which could disturb the learning capacity of our
+machine learning model. Thus, the training set was oversampled in order to match the majority
+class. The SMOTE oversampling method by “Imblearn.over_sampling” was used to oversample
+our examples in order to match the majority class. In the third step, standardization was applied
+in order to change the values of numeric columns in the dataset to a common scale, without
+distorting differences in the ranges of values. In the fourth step, the labels were one-hot
+encoded before being split into training and validation sets.
+
