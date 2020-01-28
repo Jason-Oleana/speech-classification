@@ -63,6 +63,6 @@ The following parameters were tuned:
 • The number of epochs was tuned until the validation set started to level out
 
 ## Literature
-Luengo, J., Fernández, A., García, S., & Herrera, F. (2011). Addressing data complexity for imbalanced data sets: analysis of SMOTE-based oversampling and evolutionary undersampling.Soft Computing,15(10), 1909-1936.Piczak, K. J. (2015, September). 
+Luengo, J., Fernández, A., García, S., & Herrera, F. (2011). Addressing data complexity for imbalanced data sets: analysis of SMOTE-based oversampling and evolutionary undersampling.Soft Computing,15(10), 1909-1936.
 
-Environmental sound classification with convolutional neural networks. In2015 IEEE 25th International Workshop on Machine Learning for Signal Processing (MLSP)(pp. 1-6). IEEE.
+Piczak, K. J. (2015, September). Environmental sound classification with convolutional neural networks. In2015 IEEE 25th International Workshop on Machine Learning for Signal Processing (MLSP)(pp. 1-6). IEEE.
