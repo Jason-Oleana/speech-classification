@@ -39,7 +39,7 @@ examples and a test set consisting of 11005 unlabeled examples.
 ## Feature engineering
 While exploring the extracted Mel Frequency Cepstral Coefficients (MFCCs), we discovered
 unequal dimensions, such as (99, 13), (96, 13) and (92, 13). Therefore, the extracted features
-were zero-padded in order to match the largest dimension. Zero padding the Mel Frequency
+were zero-padded in order to match the largest dimension. Zero-padding the Mel Frequency
 Cepstral Coefficients resulted in an array of (94824 99, 13) examples for the training set and an
 array consisting of (11005, 99, 13) examples for the test set. In the second step, the class
 distribution was computed in order to comprehend the distribution of all labels. The class
