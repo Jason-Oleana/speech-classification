@@ -36,9 +36,9 @@ The first step executed was loading the data into Jupyter and defining the distr
 training and testing data. In the next step, the features and labels were extracted from path.npy
 and feat.npy. The extraction of the features and labels resulted in a training set of 94824
 examples and a test set consisting of 11005 unlabeled examples.
-Feature engineering
 
-## While exploring the extracted Mel Frequency Cepstral Coefficients (MFCCs), we discovered
+## Feature engineering
+While exploring the extracted Mel Frequency Cepstral Coefficients (MFCCs), we discovered
 unequal dimensions, such as (99, 13), (96, 13) and (92, 13). Therefore, the extracted features
 were zero-padded in order to match the largest dimension. Zero padding the Mel Frequency
 Cepstral Coefficients resulted in an array of (94824 99, 13) examples for the training set and an
