@@ -44,7 +44,7 @@ were zero-padded in order to match the largest dimension. Zero padding the Mel F
 Cepstral Coefficients resulted in an array of (94824 99, 13) examples for the training set and an
 array consisting of (11005, 99, 13) examples for the test set. In the second step, the class
 distribution was computed in order to comprehend the distribution of all labels. The class
-distribution was quite imbalanced (see figure 1) which could disturb the learning capacity of our
+distribution was quite imbalanced which could disturb the learning capacity of our
 machine learning model. Thus, the training set was oversampled in order to match the majority
 class. The SMOTE oversampling method by “Imblearn.over_sampling” was used to oversample
 our examples in order to match the majority class. In the third step, standardization was applied
@@ -53,11 +53,11 @@ distorting differences in the ranges of values. In the fourth step, the labels w
 encoded before being split into training and validation sets.
 
 ## Convolutional Neural Network and parameter tuning
-The deep learning architecture used consisted of a 1 Dimensional Convolutional Neural Network (see figure 3). This approach was inspired by existing literature on environmental sound classification with convolutional neural networks (Piczak, 2015). A conv1D layer, maxpooling1D, dropout layer, and dense layer was used.
+The deep learning architecture used consisted of a 1 Dimensional Convolutional Neural Network. This approach was inspired by existing literature on environmental sound classification with convolutional neural networks (Piczak, 2015). A conv1D layer, maxpooling1D, dropout layer, and dense layer was used.
 The following parameters were tuned:
 1. Hyperparameters related to the network structure
 ·Different experiments were executed by adding hidden layers until the test error did not improve anymore.\
 ·Dropout was used in order to avoid overfitting. Dropout was set to 30%.
 
 2. Hyperparameters related to Training Algorithm\
-·The number of epochs was tuned until the validation set started to level out (see figure 1)
+·The number of epochs was tuned until the validation set started to level out
