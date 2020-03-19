@@ -33,7 +33,7 @@ format as the file train.csv except that the column word is absent.
 # Approach
 
 ## Data extraction
-The first step executed was loading the data into Jupyter and defining the distribution of the
+The first step was loading the data into Jupyter and defining the distribution of the
 training and testing data. The train file names and labels were extracted from train.csv and the test file names were extracted from test.csv. These file names were used in order to match the correct wav files from wav.tgz. In this case, python_speech_features was used in order to extract custom Mel Frequency Cepstral Coefficients (MFCCs). The extraction of the features and labels resulted in a training set of 94824
 examples and a test set consisting of 11005 unlabeled examples.
 
