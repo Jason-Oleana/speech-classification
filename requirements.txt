@@ -3,3 +3,5 @@ keras
 imblearn
 python_speech_features
 librosa
+scipy
+numpy
