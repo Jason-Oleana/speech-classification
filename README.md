@@ -62,6 +62,10 @@ The following parameters were tuned:
 2. Hyperparameters related to Training Algorithm\
 • The number of epochs was tuned until the validation set started to level out
 
+#### Model accuracy
+
+![](model_accuracy.png)
+
 ## Literature
 Luengo, J., Fernández, A., García, S., & Herrera, F. (2011). Addressing data complexity for imbalanced data sets: analysis of SMOTE-based oversampling and evolutionary undersampling.Soft Computing,15(10), 1909-1936.
 
