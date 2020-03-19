@@ -62,7 +62,7 @@ The following parameters were tuned:
 2. Hyperparameters related to Training Algorithm\
 • The number of epochs was tuned until the validation set started to level out
 
-#### Model accuracy
+### Model accuracy
 
 ![](model_accuracy.png)
 
