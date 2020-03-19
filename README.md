@@ -34,7 +34,7 @@ format as the file train.csv except that the column word is absent.
 
 ## Data extraction
 The first step was loading the data into Jupyter and defining the distribution of the
-training and testing data. The train file names and labels were extracted from train.csv and the test file names were extracted from test.csv. These file names were used in order to match the correct wav files from wav.tgz. In this case, python_speech_features was used in order to extract custom Mel Frequency Cepstral Coefficients (MFCCs). The extraction of the features and labels resulted in a training set of 94824
+training and testing data. The training file names and labels were extracted from train.csv and the testing file names were extracted from test.csv. These file names were used in order to match the correct wav files from wav.tgz. In this case, python_speech_features were used in order to extract custom Mel Frequency Cepstral Coefficients (MFCCs). The extraction of the features and labels resulted in a training set of 94824
 examples and a test set consisting of 11005 unlabeled examples.
 
 ## Feature engineering
@@ -53,7 +53,7 @@ distorting differences in the ranges of values. In the fourth step, the labels w
 encoded before being split into training and validation sets.
 
 ## Convolutional Neural Network and parameter tuning
-The deep learning architecture used consisted of a 1 Dimensional Convolutional Neural Network. This approach was inspired by existing literature on environmental sound classification with convolutional neural networks (Piczak, 2015). A conv1D layer, maxpooling1D, dropout layer, and dense layer was used.
+The deep learning architecture used, consisted a 1 Dimensional Convolutional Neural Network. This approach was inspired by existing literature on environmental sound classification with convolutional neural networks (Piczak, 2015). A conv1D layer, maxpooling1D layer, dropout layer, and dense layer was used.
 The following parameters were tuned:
 1. Hyperparameters related to the network structure\
 • Different experiments were executed by adding hidden layers until the test error did not improve anymore.\
