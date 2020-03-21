@@ -73,5 +73,5 @@ Piczak, K. J. (2015, September). Environmental sound classification with convolu
 
 ## grade received 
 
-US/UK grading system: A+
+US/UK grading system: A+\
 Dutch grading system: 9.1
