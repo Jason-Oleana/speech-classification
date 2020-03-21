@@ -72,4 +72,6 @@ Luengo, J., Fernández, A., García, S., & Herrera, F. (2011). Addressing data c
 Piczak, K. J. (2015, September). Environmental sound classification with convolutional neural networks. In2015 IEEE 25th International Workshop on Machine Learning for Signal Processing (MLSP)(pp. 1-6). IEEE.
 
 ## grade received 
-9.1
+
+US/UK grading system: A+
+Dutch grading system: 9.1
