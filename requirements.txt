@@ -1,7 +1,6 @@
-tensorflow
-keras
-imblearn
-python_speech_features
-librosa
-scipy
-numpy
+tensorflow==2.5.0
+imblearn==0.0
+python_speech_features==0.6
+librosa==0.8.1
+scipy==1.7.0
+numpy==1.19.2

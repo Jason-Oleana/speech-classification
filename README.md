@@ -7,12 +7,27 @@ is pronounced in an audio recording. This is a multiclass classification task.
 ## Requirements
 
 • tensorflow\
-• keras\
 • imblearn\
 • python_speech_features\
-• librosa
+• librosa\
+• numpy
 
-or run below code in your prompt window after git cloning this repository
+### 1. Set up a virtual Python environment
+
+#### For MacOS users
+```shell
+virtualenv .env
+source .env/bin/activate
+```
+
+#### For Windows users
+```
+pip install virtualenv
+virtualenv env
+env\Scripts\activate
+```
+
+### 2. Pip install requirements
 
 ```
 pip install -r requirements.txt
